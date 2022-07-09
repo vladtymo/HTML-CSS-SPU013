@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Selectors</title>
+    <style>
+        /* -=-=-=-=-=-=- CSS selectors -=-=-=-=-=-=- */
+
+        /* Selector template
+
+            selector_type {
+                property_name1: value1;
+                property_name2: value2;
+            }
+
+         */
+
+        /* Tag selector */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 24px;
+        }
+
+        h1 {
+            color: chocolate;
+            background-color: bisque;
+            text-align: center;
+        }
+
+        h2,
+        h3 {
+            text-transform: uppercase;
+        }
+
+        mark {
+            background-color: aquamarine;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        strong {
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: underline;
+            font-size: 22px;
+            font-weight: 200;
+        }
+
+        abbr {
+            text-decoration: underline;
+        }
+
+        p {
+            color: gray;
+            font-size: 16px;
+        }
+
+        /* Class selectors */
+        .main-text {
+            font-size: 24px;
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Intro to <abbr title="Cascade Style Sheets">CSS</abbr> - Cascade Style Sheets</h1>
+
+    <h2>Inline styles</h2>
+    <!-- Inline styles -->
+    <p style="color: darkblue; font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati,
+        commodi.</p>
+
+    <h2>Style with selectors</h2>
+    <p>Lorem ipsum <mark>dolor sit amet</mark> consectetur adipisicing elit. Impedit est maiores fugiat? Nihil,
+        obcaecati error
+        delectus nisi sapiente <mark>officia</mark> rem.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ad adipisci id, quasi laudantium aliquam vel
+        molestiae consectetur maiores <mark>totam sit</mark> fuga doloribus ullam nam, voluptatem deleniti numquam earum
+        impedit!</p>
+
+    <h3>Header</h3>
+    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. Ex expedita quisquam harum dolorem
+        praesentium
+        repudiandae accusantium fuga <strong>nobis maxime</strong> dolores? Rem consequuntur odio alias error non velit
+        excepturi aut a!
+    </p>
+    <h3>Header</h3>
+    <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita quisquam harum dolorem
+        praesentium
+        repudiandae accusantium fuga nobis maxime dolores? Rem consequuntur odio alias error non velit excepturi aut a!
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, fugiat!</p>
+    <blockquote class="main-text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam veritatis corporis, reiciendis fuga
+        officia minus ipsa obcaecati nostrum aliquid.
+    </blockquote>
+</body>
+
+</html>
