@@ -16,7 +16,7 @@
 
          */
 
-        /* Tag selector */
+        /* ----------- Tag selector ----------- */
         body {
             font-family: Arial, Helvetica, sans-serif;
             margin: 24px;
@@ -26,6 +26,8 @@
             color: chocolate;
             background-color: bisque;
             text-align: center;
+            padding: 10px;
+            border-radius: 10px;
         }
 
         h2,
@@ -55,12 +57,49 @@
             font-size: 16px;
         }
 
-        /* Class selectors */
+        /* ----------- Class selectors ----------- */
         .main-text {
             font-size: 24px;
             background-color: blue;
             color: aliceblue;
         }
+
+        /* Font types */
+        .serif-font {
+            font-family: serif;
+        }
+
+        .sans-serif-font {
+            font-family: sans-serif;
+        }
+
+        .monospace-font {
+            font-family: monospace;
+        }
+
+        .cursive-font {
+            font-family: cursive;
+        }
+
+        .fantasy-font {
+            font-family: fantasy;
+        }
+
+        /* ----------- Id selectors ----------- */
+        #main-paragraph {
+            line-height: 40px;
+            letter-spacing: 4px;
+            word-spacing: 10px;
+            text-shadow: 0px 0px 2px orange;
+        }
+
+        /* ----------- Selector priorities ----------- */
+        /* 
+            Tag:    1
+            Class:  10
+            Id:     100
+            Inline: 1000
+        */
     </style>
 </head>
 
@@ -76,7 +115,8 @@
     <p>Lorem ipsum <mark>dolor sit amet</mark> consectetur adipisicing elit. Impedit est maiores fugiat? Nihil,
         obcaecati error
         delectus nisi sapiente <mark>officia</mark> rem.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ad adipisci id, quasi laudantium aliquam vel
+    <p id="main-paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ad adipisci id, quasi
+        laudantium aliquam vel
         molestiae consectetur maiores <mark>totam sit</mark> fuga doloribus ullam nam, voluptatem deleniti numquam earum
         impedit!</p>
 
@@ -96,6 +136,39 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laboriosam veritatis corporis, reiciendis fuga
         officia minus ipsa obcaecati nostrum aliquid.
     </blockquote>
+    <hr>
+
+    <h2>Font Family Types</h2>
+
+    <h3>serif font</h3>
+    <p class="serif-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus possimus laborum nisi
+        perferendis.
+        Perferendis eligendi consequatur commodi, culpa ut dignissimos? Rem vero, laudantium ipsa quibusdam voluptates
+        beatae distinctio nihil eaque!</p>
+
+    <h3>sans-serif font</h3>
+    <p class="sans-serif-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus possimus laborum
+        nisi perferendis.
+        Perferendis eligendi consequatur commodi, culpa ut dignissimos? Rem vero, laudantium ipsa quibusdam voluptates
+        beatae distinctio nihil eaque!</p>
+
+    <h3>monospace font</h3>
+    <p class="monospace-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus possimus laborum
+        nisi perferendis.
+        Perferendis eligendi consequatur commodi, culpa ut dignissimos? Rem vero, laudantium ipsa quibusdam voluptates
+        beatae distinctio nihil eaque!</p>
+
+    <h3>cursive font</h3>
+    <p class="cursive-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus possimus laborum
+        nisi perferendis.
+        Perferendis eligendi consequatur commodi, culpa ut dignissimos? Rem vero, laudantium ipsa quibusdam voluptates
+        beatae distinctio nihil eaque!</p>
+
+    <h3>fantasy font</h3>
+    <p class="fantasy-font">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus possimus laborum
+        nisi perferendis.
+        Perferendis eligendi consequatur commodi, culpa ut dignissimos? Rem vero, laudantium ipsa quibusdam voluptates
+        beatae distinctio nihil eaque!</p>
 </body>
 
 </html>
