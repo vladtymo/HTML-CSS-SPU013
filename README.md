@@ -1,2 +1,2 @@
-# HTML / CSS / JavaScript examples.
+# HTML & CSS examples
 ### Group: SPU013
